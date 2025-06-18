@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validar Código</title>
+</head>
+<body>
+    <h2>Ingresa el código que recibiste por correo</h2>
+    <form action="check_code.php" method="POST">
+        <label for="codigo">Código:</label><br>
+        <input type="text" name="codigo" required maxlength="6" minlength="6"><br><br>
+        <button type="submit">Validar</button>
+    </form>
+</body>
+</html>
